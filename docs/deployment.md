@@ -1,4 +1,6 @@
+``` plantuml
 @startuml deployment
+
 node TestMaster
 note right: C# console app hosts \r\n ASP.NET Core SignalR Hubs
 node Agent1
@@ -16,3 +18,4 @@ TestMaster <-- Agent3
 TestMaster <-- Agent4 
 
 @enduml
+```
